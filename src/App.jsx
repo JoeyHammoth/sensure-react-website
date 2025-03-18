@@ -2,9 +2,6 @@
 * The main root of the Sensure website project.
 *
 *
-*
-*
-*
 * */
 
 import { StrictMode } from "react";

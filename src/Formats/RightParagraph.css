@@ -1,0 +1,38 @@
+.RightParagraph {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.right-section-title {
+    font-family: Inter, sans-serif;
+    font-size: 64px;
+    max-width: 800px;
+}
+
+.right-section-paragraph {
+    font-family: Inter, sans-serif;
+    font-size: 32px;
+    max-width: 800px;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-section img {
+    border-radius: 100%; /* Makes the corners round, forming a circle */
+    object-fit: cover; /* Ensures the image fills the circle without distortion */
+    overflow: hidden; /* Ensures content outside the circle is hidden */
+    width: 300px;
+    height: 300px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    flex-shrink: 0;
+}

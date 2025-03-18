@@ -1,0 +1,26 @@
+.header {
+    position: fixed;
+    top: 0;
+    padding: 1vw;
+    display: flex;
+    z-index: 2;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, white, lightblue);
+    box-sizing: border-box;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.header-sections {
+    display: flex;
+    align-items: center;
+    gap: 1.5vw;
+}
+
+.header-sections * {
+    font-family: Inter, sans-serif;
+}
+
+.header-sections a:hover {
+    color: rgb(86, 86, 86);
+}

@@ -1,0 +1,30 @@
+.footer {
+    display: flex;
+    background-image: linear-gradient(to right, white, lightblue);
+    padding: 16px;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.left-footer {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.right-footer {
+    display: flex;
+    gap: 8px;
+}
+
+.right-footer li {
+    margin: 16px 0;
+    font-size: 20px;
+    font-family: Inter, sans-serif;
+    max-width: 150px;
+}
