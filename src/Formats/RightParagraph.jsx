@@ -13,7 +13,7 @@ const RightParagraph = function ({ title, paragraph, img, alt }) {
                 <div className="right-section-paragraph">{paragraph}</div>
             </div>
         </div>
-    )
+    );
 }
 
 export default RightParagraph;

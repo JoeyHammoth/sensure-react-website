@@ -1,0 +1,57 @@
+.OverlayPanel {
+    background: linear-gradient(-45deg, #fbc2cd, #fff7ad, #ffa7b7, #fff7ad);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    border-radius: 16px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    padding: 64px 32px;
+    margin-top: 16px;
+    overflow: hidden;
+}
+
+.masked-img-one {
+    position: absolute;
+    top: -5vw; /* Position relative to container */
+    left: 50vw; /* Adjust to align the image */
+    width: 20vw; /* Ensure it is larger than the container */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+.masked-img-two {
+    position: absolute;
+    top: 10vw; /* Position relative to container */
+    left: 65vw; /* Adjust to align the image */
+    width: 40vw; /* Ensure it is larger than the container */
+    transform: rotate(30deg);
+    height: auto; /* Maintain the aspect ratio */
+}
+
+.overlay-panel-title {
+    font-family: Inter, sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    width: 500px;
+    margin-bottom: 16px;
+}
+
+.OverlayPanel button {
+    font-family: Inter, sans-serif;
+    width: 120px;
+    height: 40px;
+    background-color: #E6E6E6;
+    border: 8px solid #E6E6E6;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 3px 4px 0 2px rgba(0, 0, 0, .3);
+}
+
+.OverlayPanel button:hover {
+    background-color: #e0e0e0;
+    border: 8px solid #e0e0e0;
+}
+
+.OverlayPanel button:active {
+    background-color: #d0d0d0;
+    border: 8px solid #d0d0d0;
+    transform: scale(0.98);
+}

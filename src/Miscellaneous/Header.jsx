@@ -14,7 +14,7 @@ const Header = function () {
                 <a href="">About Us</a>
             </div>
         </div>
-    )
+    );
 }
 
 export default Header;

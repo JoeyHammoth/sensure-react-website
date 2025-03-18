@@ -73,7 +73,7 @@ const Footer = function () {
                 </ul>
             </div>
         </div>
-    )
+    );
 }
 
 export default Footer;
