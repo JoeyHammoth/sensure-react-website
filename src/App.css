@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import "tailwindcss-intersect";
+
+@plugin "tailwindcss-motion";
+.body {
+    margin: 0 5vw;
+}
+
+.header-gap {
+    margin-top: 10vw;
+}

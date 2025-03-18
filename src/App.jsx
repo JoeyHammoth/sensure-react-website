@@ -3,17 +3,27 @@
 *
 *
 * */
-
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 
-import LeftParagraph from "./Formats/LeftParagraph.jsx";
+import Intro from "./Miscellaneous/Intro.jsx";
+import Header from "./Miscellaneous/Header.jsx";
+import OverlayPanel from "./Advanced/Overlay.jsx";
+import Reviews from "./Miscellaneous/Reviews.jsx";
+
+import "./App.css";
 
 const App = function () {
     return (
         <StrictMode>
-            <div>
-                <LeftParagraph title="Welcome to Hell!!!" paragraph="lorem ipsum" alt="Image" img="/Images/img1.webp" />
+            <div className="main-container">
+                <Intro />
+                <Header />
+                <div className="body">
+                    <div className="header-gap"></div>
+                    <OverlayPanel />
+                    <Reviews />
+                </div>
             </div>
         </StrictMode>
     );

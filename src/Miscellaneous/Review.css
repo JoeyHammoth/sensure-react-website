@@ -1,0 +1,47 @@
+.review-block {
+    padding: 32px;
+    width: 400px;
+    height: 200px;
+    border-radius: 16px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    display: flex;
+    flex-direction: column;
+}
+
+.review-block-title {
+    font-family: Inter, sans-serif;
+    font-size: 32px;
+    margin-bottom: 64px;
+}
+
+.review-block-profile {
+    display: flex;
+    justify-content: start;
+    gap: 16px;
+}
+
+.review-block-profile img {
+    border-radius: 100%; /* Makes the corners round, forming a circle */
+    object-fit: cover; /* Ensures the image fills the circle without distortion */
+    overflow: hidden; /* Ensures content outside the circle is hidden */
+    width: 60px;
+    height: 60px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+}
+
+.review-block-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.review-block-name {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+}
+
+.review-block-role {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    color: grey;
+}

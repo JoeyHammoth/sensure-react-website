@@ -1,0 +1,8 @@
+.review-1 { grid-area: review-1; }
+.review-2 { grid-area: review-2; }
+.review-3 { grid-area: review-3; }
+
+.reviews {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}

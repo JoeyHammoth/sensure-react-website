@@ -24,3 +24,8 @@
 .header-sections a:hover {
     color: rgb(86, 86, 86);
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
