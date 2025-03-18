@@ -1,3 +1,5 @@
+// Standard blue-pink panel display element with title and body text as props
+
 import "./BluePanel.css";
 
 const BluePanel = function ({ title, body }) {

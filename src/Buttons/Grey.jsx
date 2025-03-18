@@ -1,3 +1,5 @@
+// A grey button display element
+
 import "./Grey.css";
 
 const GreyButton = function ({ text, link }) {

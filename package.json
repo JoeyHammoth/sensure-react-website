@@ -12,6 +12,9 @@
   "dependencies": {
     "@tailwindcss/postcss": "^4.0.13",
     "@tailwindcss/vite": "^4.0.13",
+    "@tanstack/react-query": "^5.68.0",
+    "@tanstack/react-router": "^1.114.23",
+    "@tanstack/router-plugin": "^1.114.23",
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.3",
     "react": "^19.0.0",

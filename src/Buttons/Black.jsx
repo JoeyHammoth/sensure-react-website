@@ -1,3 +1,5 @@
+// A black button display element
+
 import "./Black.css";
 
 const BlackButton = function ({ text, link }) {

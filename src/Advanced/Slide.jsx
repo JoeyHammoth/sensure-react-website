@@ -1,3 +1,5 @@
+// A sliding panel display element where images switch automatically or by clicking on them
+
 import { useState, useEffect, useRef } from "react";
 import "./Slide.css";
 

@@ -1,3 +1,5 @@
+// A left paragraph section where main text is on the left and image is on the right
+
 import "./LeftParagraph.css";
 
 const LeftParagraph = function ({ title, paragraph, img, alt }) {

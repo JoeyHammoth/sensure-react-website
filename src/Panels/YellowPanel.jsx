@@ -1,3 +1,5 @@
+// Standard blue-yellow panel display element with title and body text as props
+
 import "./YellowPanel.css";
 
 const YellowPanel = function ({ title, body }) {

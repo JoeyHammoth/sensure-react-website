@@ -1,3 +1,12 @@
+/*
+* The main root of the Sensure website project.
+*
+*
+*
+*
+*
+* */
+
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 

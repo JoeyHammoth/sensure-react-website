@@ -1,3 +1,5 @@
+// A green button display element
+
 import "./Green.css";
 
 const GreenButton = function ({ text, link }) {

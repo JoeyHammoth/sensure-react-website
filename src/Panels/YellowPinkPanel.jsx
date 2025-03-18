@@ -1,3 +1,5 @@
+// Standard pink-yellow panel display element with title and body text as props
+
 import "./YellowPinkPanel.css";
 
 const YellowPinkPanel = function ({ title, body }) {
