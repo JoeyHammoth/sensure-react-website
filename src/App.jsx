@@ -7,6 +7,7 @@ import YellowPanelItem from "./Panels/YellowPinkPanel.jsx";
 import GreenButton from "./Buttons/Green.jsx";
 import GreyButton from "./Buttons/Grey.jsx";
 import BlackButton from "./Buttons/Black.jsx";
+import SlidePanel from "./Advanced/Slide.jsx";
 
 const App = function () {
     return (
@@ -19,6 +20,7 @@ const App = function () {
                 <GreenButton text="Hello" />
                 <GreyButton text="Hello" />
                 <BlackButton text="Hello" />
+                <SlidePanel title="Hello" subtitle="placeholder" btn="Learn more" />
             </div>
         </StrictMode>
     );
