@@ -1,0 +1,28 @@
+.section-one {
+    display: flex;
+    font-family: Inter, sans-serif;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 4rem;
+}
+
+.content {
+    font-size: 2rem;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.right img {
+    border-radius: 10px;
+    width: 4rem;
+    height: 4rem;
+}

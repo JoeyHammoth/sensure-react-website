@@ -1,27 +1,33 @@
 // Display element representing the short intro animation for the website
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import "./Intro.css";
 
 const Intro = function () {
+    const [shouldRender, setShouldRender] = useState(true);
+
     useEffect(() => {
-        const introPanel = document.querySelector(".intro");
         if (!sessionStorage.getItem("animationPlayed")) {
             document.body.style.position = "fixed";
             setTimeout(() => {
                 document.body.style.position = "";
-                introPanel.style.opacity = 0;
-                setTimeout(() => {
-                    introPanel.style.zIndex = -1;
-                }, 1000);
+                const introPanel = document.querySelector(".intro");
+                if (introPanel) {
+                    introPanel.style.opacity = 0;
+                    setTimeout(() => {
+                        introPanel.style.zIndex = -1;
+                        setShouldRender(false);
+                    }, 1000);
+                }
             }, 3000);
             sessionStorage.setItem("animationPlayed", "true");
         } else {
-            document.body.style.position = "";
-            introPanel.style.opacity = 0;
-            introPanel.style.zIndex = -1;
+            // If animation has played, don't render the component at all.
+            setShouldRender(false);
         }
     }, []);
+
+    if (!shouldRender) return null;
 
     return (
         <div className="intro">
