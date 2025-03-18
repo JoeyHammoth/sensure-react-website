@@ -1,0 +1,22 @@
+.black-button {
+    font-family: Inter, sans-serif;
+    width: 120px;
+    height: 45px;
+    background-color: #000000;
+    border: 8px solid #000000;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 3px 4px 0 1px rgba(0, 0, 0, .4);
+}
+
+.black-button:hover {
+    background-color: #1f1f1f;
+    border: 8px solid #1f1f1f;
+}
+
+.black-button:active {
+    background-color: #2a2a2a;
+    border: 8px solid #2a2a2a;
+    transform: scale(0.98);
+}

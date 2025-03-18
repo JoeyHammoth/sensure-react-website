@@ -1,0 +1,36 @@
+.yellow-panel {
+    background: linear-gradient(-45deg, #65aec8, #fff7ad, #65aec8, #fff7ad);
+    background-size: 400% 400%;
+    animation: gradient 15s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-radius: 16px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 64px 32px;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+.panel-title {
+    font-family: Inter, sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    width: 500px;
+}
+
+.panel-content {
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    width: 800px;
+}

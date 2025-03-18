@@ -1,0 +1,21 @@
+.green-button {
+    font-family: Inter, sans-serif;
+    width: 120px;
+    height: 40px;
+    background-color: #00FFAB;
+    border: 8px solid #00FFAB;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 3px 4px 0 1px rgba(0, 0, 0, .3);
+}
+
+.green-button:hover {
+    background-color: #00f7a5;
+    border: 8px solid #00f7a5;
+}
+
+.green-button:active {
+    background-color: #00e498;
+    border: 8px solid #00e498;
+    transform: scale(0.98);
+}

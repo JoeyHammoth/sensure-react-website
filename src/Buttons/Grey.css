@@ -1,0 +1,21 @@
+.grey-button {
+    font-family: Inter, sans-serif;
+    width: 120px;
+    height: 40px;
+    background-color: #E6E6E6;
+    border: 8px solid #E6E6E6;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 3px 4px 0 2px rgba(0, 0, 0, .3);
+}
+
+.grey-button:hover {
+    background-color: #e0e0e0;
+    border: 8px solid #e0e0e0;
+}
+
+.grey-button:active {
+    background-color: #d0d0d0;
+    border: 8px solid #d0d0d0;
+    transform: scale(0.98);
+}
