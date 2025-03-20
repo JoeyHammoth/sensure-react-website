@@ -8,8 +8,7 @@ import { createRoot } from "react-dom/client";
 
 import Intro from "./Miscellaneous/Intro.jsx";
 import Header from "./Miscellaneous/Header.jsx";
-import OverlayPanel from "./Advanced/Overlay.jsx";
-import Reviews from "./Miscellaneous/Reviews.jsx";
+import SectionOne from "./Sections/SectionOne.jsx";
 
 import "./App.css";
 
@@ -19,10 +18,17 @@ const App = function () {
             <div className="main-container">
                 <Intro />
                 <Header />
-                <div className="body">
-                    <div className="header-gap"></div>
-                    <OverlayPanel />
-                    <Reviews />
+                <div className="white-bg">
+                    <div className="body">
+                        <div className="header-gap"></div>
+                        <SectionOne />
+                    </div>
+                </div>
+                <div className="spacer waves"></div>
+                <div className="grey-bg">
+                    <div className="body">
+                        Hello
+                    </div>
                 </div>
             </div>
         </StrictMode>

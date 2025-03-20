@@ -6,6 +6,26 @@
     margin: 0 5vw;
 }
 
+.white-bg {
+    background-color: white;
+}
+
+.grey-bg {
+    background-color: #E1E1E1;
+}
+
 .header-gap {
     margin-top: 10vw;
+}
+
+.spacer {
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.waves {
+    background-image: url("/public/SVG/white-waves-1.svg");
 }
