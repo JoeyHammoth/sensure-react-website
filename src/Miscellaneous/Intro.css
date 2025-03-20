@@ -9,7 +9,7 @@
     animation: gradient 15s cubic-bezier(0.5, 0, 0.5, 1) infinite;
     display: flex;
     justify-content: center;
-    z-index: 3;
+    z-index: 9999;
     transition: opacity 1s;
 }
 

@@ -1,6 +1,6 @@
 import "./SectionOne.css";
 
-const SectionOne = function ({ img, alt }) {
+const SectionOne = function () {
     return (
         <div className="section-one">
             <div className="left">
@@ -9,7 +9,7 @@ const SectionOne = function ({ img, alt }) {
                     Join us in transforming clinical training</div>
             </div>
             <div className="right">
-                <img src={img} alt={alt} />
+
             </div>
         </div>
     );

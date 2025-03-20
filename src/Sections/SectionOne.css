@@ -6,6 +6,7 @@
 .left {
     display: flex;
     flex-direction: column;
+    max-width: 55vw;
 }
 
 .title {
@@ -22,7 +23,7 @@
 }
 
 .right img {
-    border-radius: 10px;
-    width: 4rem;
-    height: 4rem;
+    z-index: 0;
+    position: absolute;
+    max-width: 50vw;
 }

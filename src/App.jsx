@@ -15,15 +15,16 @@ import "./App.css";
 const App = function () {
     return (
         <StrictMode>
+            <Intro className="introduction" />
             <div className="main-container">
-                <Intro />
                 <Header />
                 <div className="white-bg">
                     <div className="body">
                         <div className="header-gap"></div>
-                        <SectionOne />
+                        <SectionOne className="section-one" />
                     </div>
                 </div>
+                <img className="image-one" src="/public/Images/img13.png" alt="Doctor" />
                 <div className="spacer waves"></div>
                 <div className="grey-bg">
                     <div className="body">

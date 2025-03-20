@@ -2,8 +2,25 @@
 @import "tailwindcss-intersect";
 
 @plugin "tailwindcss-motion";
+
+.header {
+    z-index: 3;
+}
+
 .body {
     margin: 0 5vw;
+    z-index: 0;
+}
+
+.white-bg,
+.section-one {
+    position: relative;
+    z-index: 0; /* or 0, as long as it's lower than the image */
+}
+
+.spacer.waves {
+    position: relative;
+    z-index: 3; /* highest, so it stays above the image */
 }
 
 .white-bg {
@@ -27,5 +44,14 @@
 }
 
 .waves {
-    background-image: url("/public/SVG/white-waves-1.svg");
+    background-image: url("/public/SVG/layered-waves-haikei.svg");
+}
+
+.image-one {
+    position: absolute;
+    max-height: 80%;
+    max-width: 50%;
+    right: 0;
+    top: 15%;
+    z-index: 2;
 }
