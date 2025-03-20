@@ -9,6 +9,9 @@ import { createRoot } from "react-dom/client";
 import Intro from "./Miscellaneous/Intro.jsx";
 import Header from "./Miscellaneous/Header.jsx";
 import SectionOne from "./Sections/SectionOne.jsx";
+import SectionTwo from "./Sections/SectionTwo.jsx";
+import SectionThree from "./Sections/SectionThree.jsx";
+import SectionFour from "./Sections/SectionFour.jsx";
 
 import "./App.css";
 
@@ -28,7 +31,25 @@ const App = function () {
                 <div className="spacer waves"></div>
                 <div className="grey-bg">
                     <div className="body">
-                        Hello
+                        <SectionTwo />
+                    </div>
+                </div>
+                <div className="spacer waves-rev"></div>
+                <div className="white-bg">
+                    <div className="body">
+                        <SectionThree />
+                    </div>
+                </div>
+                <div className="spacer waves low-margin"></div>
+                <div className="grey-bg">
+                    <div className="body">
+                        <SectionFour />
+                    </div>
+                </div>
+                <div className="spacer waves-rev"></div>
+                <div className="white-bg">
+                    <div className="body">
+                       
                     </div>
                 </div>
             </div>

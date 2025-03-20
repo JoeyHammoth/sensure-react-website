@@ -1,0 +1,16 @@
+.section-three {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-three-title {
+    font-family: Inter, sans-serif;
+    font-size: 64px;
+}
+
+.section-three-body {
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+    margin: 3vw 0;
+}

@@ -1,0 +1,11 @@
+.section-two {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-two-title {
+    font-family: Inter, sans-serif;
+    font-size: 3vw;
+    max-width: 75%;
+    margin: 3vw 0;
+}

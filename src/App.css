@@ -4,7 +4,7 @@
 @plugin "tailwindcss-motion";
 
 .header {
-    z-index: 3;
+    z-index: 4;
 }
 
 .body {
@@ -45,6 +45,15 @@
 
 .waves {
     background-image: url("/public/SVG/layered-waves-haikei.svg");
+}
+
+.waves-rev {
+    background-image: url("/public/SVG/rev-1.svg");
+    margin-bottom: -12vw;
+}
+
+.low-margin {
+    margin-top: -12vw;
 }
 
 .image-one {
