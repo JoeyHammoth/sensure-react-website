@@ -14,7 +14,14 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
 
+.left-footer img {
+    max-width: 12vw;
+}
+
+.socials {
+    display: flex;
 }
 
 .right-footer {

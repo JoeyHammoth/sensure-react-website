@@ -1,0 +1,50 @@
+.section-five {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-five-title {
+    font-family: Inter, sans-serif;
+    font-size: 3rem;
+}
+
+.section-five-subtitle {
+    font-family: Inter, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.section-five-content {
+    display: flex;
+    gap: 25vw;
+    margin-bottom: 10rem;
+    align-items: center;
+}
+
+.section-five-left {
+    display: flex;
+    flex-direction: column;
+    font-family: Inter, sans-serif;
+    font-size: 1.5rem;
+    gap: 1rem;
+}
+
+.section-five-left div {
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    align-items: center;
+}
+
+.section-five-left div input {
+    background-color: #E1E1E1;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+}
+
+.section-five-right img {
+    max-width: 75%;
+    border-radius: 0.2rem;
+}
+
+

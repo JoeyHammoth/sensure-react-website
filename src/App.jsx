@@ -12,6 +12,8 @@ import SectionOne from "./Sections/SectionOne.jsx";
 import SectionTwo from "./Sections/SectionTwo.jsx";
 import SectionThree from "./Sections/SectionThree.jsx";
 import SectionFour from "./Sections/SectionFour.jsx";
+import SectionFive from "./Sections/SectionFive.jsx";
+import Footer from "./Miscellaneous/Footer.jsx";
 
 import "./App.css";
 
@@ -49,9 +51,10 @@ const App = function () {
                 <div className="spacer waves-rev"></div>
                 <div className="white-bg">
                     <div className="body">
-                       
+                        <SectionFive />
                     </div>
                 </div>
+                <Footer />
             </div>
         </StrictMode>
     );
