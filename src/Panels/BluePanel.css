@@ -34,3 +34,9 @@
     font-size: 24px;
     width: 800px;
 }
+
+.blue-panel-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}

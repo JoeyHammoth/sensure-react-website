@@ -1,4 +1,5 @@
 import "./SectionThree.css";
+
 import LeftParagraph from "../Formats/LeftParagraph.jsx";
 import RightParagraph from "../Formats/RightParagraph.jsx";
 import OverlayPanel from "../Advanced/Overlay.jsx";

@@ -43,6 +43,14 @@
     background-size: cover;
 }
 
+.spacer-crop {
+    aspect-ratio: 1600/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 .waves {
     background-image: url("/public/SVG/layered-waves-haikei.svg");
 }
@@ -50,6 +58,10 @@
 .waves-rev {
     background-image: url("/public/SVG/rev-1.svg");
     margin-bottom: -12vw;
+}
+
+.waves-cropped {
+    background-image: url("/public/SVG/haikei-cropped.svg");
 }
 
 .low-margin {

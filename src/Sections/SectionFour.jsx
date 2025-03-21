@@ -23,8 +23,7 @@ const SectionFour = function () {
                                    "and co-create better training methods together."}
                                alt={"Needle"} img={"/public/Images/img3.png"} />
                 <SlidePanel title={"Your personal guide to mastering procedural " +
-                    "skills—built for clinicians, by clinicians."}
-                              btn={"Download on iOS & Android"} />
+                    "skills—built for clinicians, by clinicians."} btn={"Download on iOS & Android"} />
             </div>
         </div>
     );

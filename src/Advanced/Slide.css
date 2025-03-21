@@ -28,11 +28,12 @@
     font-size: 48px;
     font-weight: bold;
     margin-bottom: 40px;
+    max-width: 50vw;
 }
 
 .sliding-panel-left button {
     font-family: Inter, sans-serif;
-    width: 120px;
+    width: 15vw;
     height: 40px;
     background-color: #E6E6E6;
     border: 8px solid #E6E6E6;
