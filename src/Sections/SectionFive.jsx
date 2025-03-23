@@ -21,7 +21,7 @@ const SectionFive = function () {
     // Create a mutation that posts formData to your Spring Boot API
     const mutation = useMutation({
         mutationFn: (newData) =>
-            fetch('http://localhost:8080/api/contacts', {
+            fetch('https://sensure-api-0d2439647638.herokuapp.com/api/contacts', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
