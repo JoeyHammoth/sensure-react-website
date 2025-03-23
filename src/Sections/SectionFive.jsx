@@ -20,21 +20,47 @@ const SectionFive = function () {
 
     // Create a mutation that posts formData to your Spring Boot API
     const mutation = useMutation({
-        mutationFn: (newData) =>
-            fetch('https://sensure-api-0d2439647638.herokuapp.com/api/contacts', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Accept': 'application/json, text/plain, */*'
-                },
-                mode: 'cors', // Explicitly set CORS mode
-                body: JSON.stringify(newData)
-            }).then(async res => {
-                const text = await res.text();
-                if (!res.ok) throw new Error(`Error submitting form: ${text || res.status}`);
+        mutationFn: async (newData) => {
+            // First, try with standard CORS approach
+            try {
+                const response = await fetch('https://sensure-api-0d2439647638.herokuapp.com/api/contacts', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'text/plain, application/json, */*'
+                    },
+                    mode: 'cors',
+                    body: JSON.stringify(newData)
+                });
+
+                const text = await response.text();
+                if (!response.ok) {
+                    throw new Error(`Server error: ${text || response.status}`);
+                }
                 return text;
-            }),
+            } catch (error) {
+                console.error("Initial fetch attempt failed:", error);
+
+                // If the standard approach fails, try a backup approach
+                // Note: This is a workaround and might not be needed if the server is properly configured
+                const backupResponse = await fetch('https://sensure-api-0d2439647638.herokuapp.com/api/contacts', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    // Don't specify mode, let browser determine
+                    body: JSON.stringify(newData)
+                });
+
+                const backupText = await backupResponse.text();
+                if (!backupResponse.ok) {
+                    throw new Error(`Server error: ${backupText || backupResponse.status}`);
+                }
+                return backupText;
+            }
+        },
         onSuccess: () => {
+            console.log("Form submitted successfully!");
             setFormStatus({ submitted: true, error: null });
             // Reset form after successful submission
             setFormData({
@@ -47,7 +73,10 @@ const SectionFive = function () {
         },
         onError: (error) => {
             console.error("Form submission error:", error);
-            setFormStatus({ submitted: false, error: error.message });
+            setFormStatus({
+                submitted: false,
+                error: error.message || "Failed to submit the form. Please try again later."
+            });
         }
     });
 
