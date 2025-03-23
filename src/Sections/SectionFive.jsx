@@ -24,12 +24,15 @@ const SectionFive = function () {
             fetch('https://sensure-api-0d2439647638.herokuapp.com/api/contacts', {
                 method: 'POST',
                 headers: {
-                    'Content-Type': 'application/json'
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json, text/plain, */*'
                 },
+                mode: 'cors', // Explicitly set CORS mode
                 body: JSON.stringify(newData)
-            }).then(res => {
-                if (!res.ok) throw new Error('Error submitting form');
-                return res.text();
+            }).then(async res => {
+                const text = await res.text();
+                if (!res.ok) throw new Error(`Error submitting form: ${text || res.status}`);
+                return text;
             }),
         onSuccess: () => {
             setFormStatus({ submitted: true, error: null });
@@ -43,6 +46,7 @@ const SectionFive = function () {
             });
         },
         onError: (error) => {
+            console.error("Form submission error:", error);
             setFormStatus({ submitted: false, error: error.message });
         }
     });
