@@ -4,7 +4,7 @@
     animation: gradient 15s cubic-bezier(0.5, 0, 0.5, 1) infinite;
     border-radius: 16px;
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
-    padding: 32px;
+    padding: 64px;
     margin-top: 16px;
     overflow: hidden;
     display: flex;
@@ -40,6 +40,7 @@
     border-radius: 8px;
     text-align: center;
     box-shadow: 3px 4px 0 2px rgba(0, 0, 0, .3);
+    cursor: pointer;
 }
 
 .sliding-panel-left button:hover {

@@ -6,7 +6,7 @@ import SlidePanel from "../Advanced/Slide.jsx";
 const SectionFour = function () {
     return (
         <div className="section-three">
-            <div className="section-three-title">
+            <div className="section-three-title intersect-once intersect:motion-preset-blur-right">
                 Your Pocket Guide - Access learning anywhere, anytime
             </div>
             <div className="section-three-body">

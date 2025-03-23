@@ -5,7 +5,7 @@ const OverlayPanel = function ({ title, link, btn }) {
     return (
         <div className="OverlayPanel">
             <div className="overlay-left">
-                <div className="overlay-panel-title">{title}</div>
+                <div className="overlay-panel-title intersect-once intersect:motion-preset-shake motion-duration-1000">{title}</div>
                 <GreyButton link={link} text={btn} />
             </div>
             <img src="/Images/img6.png" alt="Needle Image" className="masked-img-one"/>

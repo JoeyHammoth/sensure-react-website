@@ -6,6 +6,7 @@
 .section-five-title {
     font-family: Inter, sans-serif;
     font-size: 3rem;
+    font-weight: bold;
 }
 
 .section-five-subtitle {
@@ -98,4 +99,9 @@
     border-radius: 0.2rem;
     padding: 0.5rem;
     cursor: pointer;
+}
+
+.form-error-message {
+    font-size: 1rem;
+    color: #c50000;
 }

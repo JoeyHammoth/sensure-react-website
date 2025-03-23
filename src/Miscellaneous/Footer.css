@@ -26,12 +26,12 @@ ul {
 
 .right-footer {
     display: flex;
-    gap: 8px;
+    gap: 32px;
 }
 
 .right-footer li {
     margin: 16px 0;
     font-size: 20px;
     font-family: Inter, sans-serif;
-    max-width: 150px;
+    max-width: 8vw;
 }

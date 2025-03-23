@@ -40,12 +40,12 @@ const SlidePanel = ({ title, subtitle, btn }) => {
 
     return (
         <div className="sliding-panel">
-            <div className="sliding-panel-left">
+            <div className="sliding-panel-left intersect-once intersect:motion-preset-shrink motion-delay-0">
                 <div className="sliding-panel-subtitle">{subtitle}</div>
                 <div className="sliding-panel-title">{title}</div>
                 <button type="button">{btn}</button>
             </div>
-            <div className="sliding-panel-right">
+            <div className="sliding-panel-right intersect-once intersect:motion-preset-shrink motion-delay-150">
                 <img
                     ref={imgRef}
                     src={imgLinks[currentIndex]}

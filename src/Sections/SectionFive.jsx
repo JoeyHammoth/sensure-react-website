@@ -65,13 +65,13 @@ const SectionFive = function () {
 
     return (
         <div className="section-five">
-            <div className="section-five-title">
+            <div className="section-five-title intersect-once intersect:motion-preset-rebound-right motion-delay-0">
                 Join in - subscribe to receive updates
             </div>
-            <div className="section-five-subtitle">
+            <div className="section-five-subtitle intersect-once intersect:motion-preset-rebound-right motion-delay-100">
                 We want to hear from you! If you're wanting to know more just fill in the form.
             </div>
-            <div className="section-five-content">
+            <div className="section-five-content intersect-once intersect:motion-preset-expand motion-delay-200">
                 {formStatus.submitted ? (
                     <div className="form-success-message">
                         <h3>Thank you for your submission!</h3>
@@ -145,7 +145,7 @@ const SectionFive = function () {
 
                         {formStatus.error && (
                             <div className="form-error-message">
-                                Error: {formStatus.error}. Please try again.
+                                Error: {formStatus.error}. Please try again later.
                             </div>
                         )}
 

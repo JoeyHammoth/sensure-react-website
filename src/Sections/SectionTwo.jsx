@@ -5,7 +5,7 @@ import BluePanel from "../Panels/BluePanel.jsx";
 const SectionTwo = function () {
     return (
         <div className="section-two">
-            <div className="section-two-title">
+            <div className="section-two-title intersect-once intersect:motion-preset-rebound-right">
                 Needle-based procedures demand precision,
                 but training methods often leave clinicians
                 struggling to develop reliable tactile intuition.

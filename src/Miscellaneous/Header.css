@@ -19,13 +19,28 @@
 
 .header-sections * {
     font-family: Inter, sans-serif;
+    font-size: 1.1vw;
+}
+
+.header-sections a {
+    color: black;
+    transition: color 0.2s;
 }
 
 .header-sections a:hover {
-    color: rgb(86, 86, 86);
+    color: white;
 }
 
 a {
     text-decoration: none;
     color: black;
+}
+
+.prod-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.current-section {
+    font-weight: bold;
 }

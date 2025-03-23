@@ -7,7 +7,7 @@ import OverlayPanel from "../Advanced/Overlay.jsx";
 const SectionThree = function () {
     return (
         <div className="section-three">
-            <div className="section-three-title">
+            <div className="section-three-title intersect-once intersect:motion-preset-slide-up motion-duration-1000">
                 Turning Touch into Teachable Moments—Through Sound
             </div>
             <div className="section-three-body">
