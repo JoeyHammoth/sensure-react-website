@@ -14,16 +14,16 @@ const SectionThree = function () {
                 <LeftParagraph title={"Feel precision, hear confidence."}
                                paragraph={"We translate subtle tactile cues into sound, " +
                                    "creating real-time feedback that enhances procedural awareness."}
-                               alt={"Needle"} img={"/public/Images/img1.webp"} />
+                               alt={"Needle"} img={"https://d3bhvpql1mmbm1.cloudfront.net/img1.webp"} />
                 <RightParagraph title={"A shared language for hands-on expertise."}
                                 paragraph={"By providing an objective reference, we enable clearer " +
                                     "communication between trainees and supervisors—bridging experience and learning."}
-                                alt={"Needle"} img={"/public/Images/img2.jpg"} />
+                                alt={"Needle"} img={"https://d3bhvpql1mmbm1.cloudfront.net/img2.jpg"} />
                 <LeftParagraph title={"Faster learning, stronger intuition."}
                                paragraph={"With enhanced clarity and cognitive efficiency, clinicians " +
                                    "refine their skills more intuitively, accelerating mastery " +
                                    "and improving patient outcomes."}
-                               alt={"Needle"} img={"/public/Images/img3.png"} />
+                               alt={"Needle"} img={"https://d3bhvpql1mmbm1.cloudfront.net/img3.png"} />
                 <OverlayPanel title={"Seamless to adopt, intuitive to use—enhancing, not replacing, " +
                               "your expertise. Join a growing community revolutionizing procedural training."}
                               btn={"Learn More"} />

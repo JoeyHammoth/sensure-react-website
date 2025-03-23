@@ -13,15 +13,15 @@ const SectionFour = function () {
                 <LeftParagraph title={"Track your learning, step by step."}
                                paragraph={"Explore procedure demos, anatomical insights, " +
                                    "and real-world scenarios to strengthen your understanding."}
-                               alt={"Needle"} img={"/public/Images/img1.webp"} />
+                               alt={"Needle"} img={"https://d3bhvpql1mmbm1.cloudfront.net/img1.webp"} />
                 <RightParagraph title={"Review, replay, and refine."}
                                 paragraph={"Revisit past experiences with replayable feedback, " +
                                     "helping you analyze and improve your technique."}
-                                alt={"Needle"} img={"/public/Images/img2.jpg"} />
+                                alt={"Needle"} img={"https://d3bhvpql1mmbm1.cloudfront.net/img2.jpg"} />
                 <LeftParagraph title={"Connect, compare, and collaborate."}
                                paragraph={"Join a clinician-led community—share insights, benchmark progress, " +
                                    "and co-create better training methods together."}
-                               alt={"Needle"} img={"/public/Images/img3.png"} />
+                               alt={"Needle"} img={"https://d3bhvpql1mmbm1.cloudfront.net/img3.png"} />
                 <SlidePanel title={"Your personal guide to mastering procedural " +
                     "skills—built for clinicians, by clinicians."} btn={"Download on iOS & Android"} />
             </div>

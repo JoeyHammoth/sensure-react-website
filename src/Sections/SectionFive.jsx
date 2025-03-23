@@ -159,7 +159,7 @@ const SectionFive = function () {
                     </form>
                 )}
                 <div className="section-five-right">
-                    <img src="/public/Images/img2.jpg" alt="books" />
+                    <img src="https://d3bhvpql1mmbm1.cloudfront.net/img2.jpg" alt="books" />
                 </div>
             </div>
         </div>
