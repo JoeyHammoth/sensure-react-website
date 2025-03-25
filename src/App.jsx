@@ -37,8 +37,8 @@ const App = function () {
                                 <SectionOne className="section-one intersect:motion-preset-fade" />
                             </div>
                         </div>
-                        <img className="image-one" src="https://d3bhvpql1mmbm1.cloudfront.net/img13.png" alt="Doctor" />
-                        <div className="spacer waves"></div>
+                        <img className="image-one motion-preset-expand" src="https://d3bhvpql1mmbm1.cloudfront.net/img13.png" alt="Doctor" />
+                        <div className="spacer waves lowish-margin"></div>
                         <div className="grey-bg">
                             <div className="body">
                                 <SectionTwo className="intersect:motion-preset-fade" />

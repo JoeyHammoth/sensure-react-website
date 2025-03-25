@@ -12,10 +12,14 @@
 .title {
     font-size: 4rem;
     font-weight: 600;
+    max-width: 35vw;
+    display: flex;
+    flex-direction: column;
 }
 
 .content {
     font-size: 2rem;
+    max-width: 44vw;
 }
 
 .right {

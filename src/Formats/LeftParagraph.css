@@ -1,6 +1,9 @@
 .LeftParagraph {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: flex-start; /* Important for top-alignment */
+    max-width: 75vw;
+    margin: 0 auto; /* optional if you want the entire section centered on the page */
 }
 
 .left-section {
@@ -10,21 +13,23 @@
 }
 
 .left-section-title {
+    /* remove display: flex and align-items if not needed */
     font-family: Inter, sans-serif;
-    font-size: 64px;
-    max-width: 800px;
+    font-size: 58px;
+    text-align: left;
 }
 
 .left-section-paragraph {
+    /* remove display: flex; */
+    display: block;
     font-family: Inter, sans-serif;
     font-size: 32px;
-    max-width: 800px;
+    text-align: left; /* ensures the text is left-aligned */
 }
 
 .right-section {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .right-section img {

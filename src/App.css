@@ -68,6 +68,10 @@
     margin-top: -12vw;
 }
 
+.lowish-margin {
+    margin-top: -6vw;
+}
+
 .image-one {
     position: absolute;
     max-height: 80%;
