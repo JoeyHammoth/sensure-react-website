@@ -1,38 +1,44 @@
 .LeftParagraph {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start; /* Important for top-alignment */
+    justify-content: space-evenly;
     max-width: 75vw;
-    margin: 0 auto; /* optional if you want the entire section centered on the page */
+    align-items: center;
 }
 
-.left-section {
+.left-par-left-area {
     display: flex;
     flex-direction: column;
     gap: 32px;
 }
 
-.left-section-title {
-    /* remove display: flex and align-items if not needed */
-    font-family: Inter, sans-serif;
-    font-size: 58px;
-    text-align: left;
-}
-
-.left-section-paragraph {
-    /* remove display: flex; */
-    display: block;
-    font-family: Inter, sans-serif;
-    font-size: 32px;
-    text-align: left; /* ensures the text is left-aligned */
-}
-
-.right-section {
+.left-par-title-area {
     display: flex;
     flex-direction: column;
+    font-family: Inter, sans-serif;
+    font-size: 58px;
+    max-width: 550px;
+    align-items: start;
 }
 
-.right-section img {
+.left-par-title-area div {
+    max-height: 8.5vh;
+}
+
+.left-par-content-area {
+    display: flex;
+    font-family: Inter, sans-serif;
+    font-size: 32px;
+    max-width: 800px;
+    align-items: start;
+}
+
+.left-par-right-img-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-par-right-img-area img {
     border-radius: 100%; /* Makes the corners round, forming a circle */
     object-fit: cover; /* Ensures the image fills the circle without distortion */
     overflow: hidden; /* Ensures content outside the circle is hidden */

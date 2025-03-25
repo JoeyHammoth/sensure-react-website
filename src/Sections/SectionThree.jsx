@@ -16,7 +16,8 @@ const SectionThree = function () {
                                paragraph={"We translate subtle tactile cues into sound, " +
                                    "creating real-time feedback that enhances procedural awareness."}
                                alt={"Needle"} img={"https://d3bhvpql1mmbm1.cloudfront.net/img1.webp"} />
-                <RightParagraph title={"A shared language for hands-on expertise."}
+                <RightParagraph titleOne={"A shared language"}
+                                titleTwo={"for hands-on expertise."}
                                 paragraph={"By providing an objective reference, we enable clearer " +
                                     "communication between trainees and supervisors—bridging experience and learning."}
                                 alt={"Needle"} img={"https://d3bhvpql1mmbm1.cloudfront.net/img2.jpg"} />
@@ -27,7 +28,8 @@ const SectionThree = function () {
                                    "and improving patient outcomes."}
                                alt={"Needle"} img={"https://d3bhvpql1mmbm1.cloudfront.net/img3.png"} />
                 <OverlayPanel title={"Seamless to adopt, intuitive to use—enhancing, not replacing, " +
-                              "your expertise. Join a growing community revolutionizing procedural training."}
+                              "your expertise."}
+                              subtitle={"Join a growing community revolutionizing procedural training."}
                               btn={"Learn More"} />
             </div>
         </div>

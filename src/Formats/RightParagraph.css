@@ -1,25 +1,35 @@
 .RightParagraph {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    max-width: 75vw;
+    align-items: center;
 }
 
 .right-section {
     display: flex;
     flex-direction: column;
-    align-items: start;
     gap: 32px;
 }
 
-.right-section-title {
+.right-par-title-area {
+    display: flex;
+    flex-direction: column;
     font-family: Inter, sans-serif;
-    font-size: 64px;
-    max-width: 800px;
+    font-size: 58px;
+    max-width: 600px;
+    align-items: start;
+}
+
+.right-par-title-area div {
+    max-height: 8.5vh;
 }
 
 .right-section-paragraph {
+    display: flex;
     font-family: Inter, sans-serif;
     font-size: 32px;
     max-width: 800px;
+    align-items: start;
 }
 
 .left-section {
