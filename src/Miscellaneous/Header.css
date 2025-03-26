@@ -22,16 +22,16 @@
     font-size: 1.1vw;
 }
 
-.header-sections a {
+.header-sections Link {
     color: black;
     transition: color 0.2s;
 }
 
-.header-sections a:hover {
+.header-sections Link:hover {
     color: white;
 }
 
-a {
+Link {
     text-decoration: none;
     color: black;
 }
