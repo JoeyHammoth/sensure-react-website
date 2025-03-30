@@ -2,7 +2,7 @@
 
 import "./Header.css";
 
-const Header = function () {
+const HeaderProd = function () {
   return (
     <div className="header">
       <img
@@ -12,8 +12,8 @@ const Header = function () {
         height="auto"
       />
       <div className="header-sections">
-        <div className="current-section">Home</div>
-        <a href="/Directories/product.html">Product</a>
+        <a href="/index.html">Home</a>
+        <div className="current-section">Product</div>
         <a href="">News</a>
         <a href="">Contact</a>
         <a href="">About Us</a>
@@ -22,4 +22,4 @@ const Header = function () {
   );
 };
 
-export default Header;
+export default HeaderProd;

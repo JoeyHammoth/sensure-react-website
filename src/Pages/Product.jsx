@@ -1,36 +1,26 @@
-/*
- * The main root of the Sensure website project.
- *
- *
- * */
-import { StrictMode } from "react";
+import ObserverProvider from "../Miscellaneous/ObserverProvider.tsx";
 import { createRoot } from "react-dom/client";
-
-import Intro from "./Miscellaneous/Intro.jsx";
-import Header from "./Miscellaneous/Header.jsx";
-import SectionOne from "./Sections/SectionOne.jsx";
-import SectionTwo from "./Sections/SectionTwo.jsx";
-import SectionThree from "./Sections/SectionThree.jsx";
-import SectionFour from "./Sections/SectionFour.jsx";
-import SectionFive from "./Sections/SectionFive.jsx";
-import Footer from "./Miscellaneous/Footer.jsx";
-
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { StrictMode } from "react";
+import HeaderProd from "../Miscellaneous/HeaderProd.jsx";
+import SectionOne from "../Sections/SectionOne.jsx";
+import SectionTwo from "../Sections/SectionTwo.jsx";
+import SectionThree from "../Sections/SectionThree.jsx";
+import SectionFour from "../Sections/SectionFour.jsx";
+import SectionFive from "../Sections/SectionFive.jsx";
+import Footer from "../Miscellaneous/Footer.jsx";
 
-import "./App.css";
-
-import ObserverProvider from "./Miscellaneous/ObserverProvider.tsx";
+import "./Product.css";
 
 const queryClient = new QueryClient();
 
-const App = function () {
+const Product = function () {
   return (
     <StrictMode>
       <ObserverProvider>
         <QueryClientProvider client={queryClient}>
-          <Intro className="introduction" />
           <div className="main-container">
-            <Header />
+            <HeaderProd />
             <div className="white-bg">
               <div className="body">
                 <div className="header-gap"></div>
@@ -76,4 +66,4 @@ const App = function () {
 
 const container = document.getElementById("root");
 const root = createRoot(container);
-root.render(<App />);
+root.render(<Product />);
