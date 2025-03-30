@@ -3,6 +3,10 @@
 
 @plugin "tailwindcss-motion";
 
+.intro-effect {
+    z-index: 999999;
+}
+
 .header {
     z-index: 4;
 }

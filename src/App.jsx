@@ -10,8 +10,6 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { RouterProvider, createRouter } from "@tanstack/react-router";
 import { routeTree } from "./routeTree.gen";
 
-import "./App.css";
-
 import ObserverProvider from "./Miscellaneous/ObserverProvider.tsx";
 
 const queryClient = new QueryClient();
@@ -20,11 +18,9 @@ const router = createRouter({ routeTree });
 const App = function () {
   return (
     <StrictMode>
-      <ObserverProvider>
-        <QueryClientProvider client={queryClient}>
-          <RouterProvider router={router} />
-        </QueryClientProvider>
-      </ObserverProvider>
+      <QueryClientProvider client={queryClient}>
+        <RouterProvider router={router} />
+      </QueryClientProvider>
     </StrictMode>
   );
 };
