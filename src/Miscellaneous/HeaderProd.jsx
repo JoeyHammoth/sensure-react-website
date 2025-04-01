@@ -1,6 +1,7 @@
 // Footer display element
 
 import "./Header.css";
+import { Link } from "react-router-dom";
 
 const HeaderProd = function () {
   return (
@@ -12,7 +13,7 @@ const HeaderProd = function () {
         height="auto"
       />
       <div className="header-sections">
-        <a href="/index.html">Home</a>
+        <Link to="/">Home</Link>
         <div className="current-section">Product</div>
         <a href="">News</a>
         <a href="">Contact</a>

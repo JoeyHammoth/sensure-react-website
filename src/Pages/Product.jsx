@@ -64,6 +64,4 @@ const Product = function () {
   );
 };
 
-const container = document.getElementById("root");
-const root = createRoot(container);
-root.render(<Product />);
+export default Product;

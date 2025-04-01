@@ -1,7 +1,7 @@
 // Footer display element
 
 import "./Header.css";
-import { Link } from "@tanstack/react-router";
+import { Link } from "react-router-dom";
 
 const Header = function () {
   return (
@@ -14,7 +14,7 @@ const Header = function () {
       />
       <div className="header-sections">
         <div className="current-section">Home</div>
-        <Link to="/Directories/product.html">Product</Link>
+        <Link to="/product">Product</Link>
         <a href="">News</a>
         <a href="">Contact</a>
         <a href="">About Us</a>
