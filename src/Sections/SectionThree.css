@@ -17,6 +17,7 @@
 .section-three-body {
     display: flex;
     flex-direction: column;
-    gap: 5vw;
+    gap: 6vw;
     margin: 3vw 0;
+    align-items: center;
 }

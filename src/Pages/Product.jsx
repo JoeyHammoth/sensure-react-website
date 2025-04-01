@@ -3,11 +3,11 @@ import { createRoot } from "react-dom/client";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { StrictMode } from "react";
 import HeaderProd from "../Miscellaneous/HeaderProd.jsx";
-import SectionOne from "../Sections/SectionOne.jsx";
-import SectionTwo from "../Sections/SectionTwo.jsx";
-import SectionThree from "../Sections/SectionThree.jsx";
-import SectionFour from "../Sections/SectionFour.jsx";
-import SectionFive from "../Sections/SectionFive.jsx";
+import SectionOne from "../SectionProd/SectionOne.jsx";
+import SectionTwo from "../SectionProd/SectionTwo.jsx";
+import SectionThree from "../SectionProd/SectionThree.jsx";
+import SectionFour from "../SectionProd/SectionFour.jsx";
+import SectionFive from "../SectionProd/SectionFive.jsx";
 import Footer from "../Miscellaneous/Footer.jsx";
 
 import "./Product.css";

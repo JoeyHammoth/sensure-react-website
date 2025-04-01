@@ -3,12 +3,13 @@
     justify-content: space-evenly;
     max-width: 75vw;
     align-items: center;
+    gap: 2vw;
 }
 
 .left-par-left-area {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 2vw;
 }
 
 .left-par-title-area {
@@ -21,7 +22,7 @@
 }
 
 .left-par-title-area div {
-    max-height: 8.5vh;
+    max-height: 7.5vh;
 }
 
 .left-par-content-area {

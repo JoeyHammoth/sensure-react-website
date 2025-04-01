@@ -1,0 +1,9 @@
+.prod-section-three {
+    display: flex;
+    flex-direction: column;
+}
+
+.prod-section-three-content {
+    display: flex;
+    flex-direction: column;
+}

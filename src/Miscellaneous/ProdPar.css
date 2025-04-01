@@ -1,0 +1,6 @@
+.prod-par-content {
+    display: flex;
+    flex-direction: column;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+}

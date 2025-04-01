@@ -1,0 +1,33 @@
+.grid-square-one {
+    grid-area: grid-one;
+}
+
+.grid-square-two {
+    grid-area: grid-two;
+}
+
+.grid-square-three {
+    grid-area: grid-three;
+}
+
+.grid-content {
+    display: grid;
+    grid-template-areas:
+    "grid-one grid-two"
+    "grid-one grid-three";
+}
+
+.grid-square-one-circle {
+    padding: 1vw;
+    border-radius: 100%;
+}
+
+.grid-square-two-circle {
+    padding: 1vw;
+    border-radius: 100%;
+}
+
+.grid-square-three-circle {
+    padding: 1vw;
+    border-radius: 100%;
+}
