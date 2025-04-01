@@ -1,13 +1,25 @@
 .grid-square-one {
     grid-area: grid-one;
+    background: linear-gradient(-45deg, #65aec8, #fdc1cc, #aed7e6, #ffa7b7);
+    background-size: 400% 400%;
+    animation: gradient 15s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    padding: 3vw;
 }
 
 .grid-square-two {
     grid-area: grid-two;
+    background: linear-gradient(-45deg, #65aec8, #fff7ad, #65aec8, #fff7ad);
+    background-size: 400% 400%;
+    animation: gradient 15s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    padding: 3vw;
 }
 
 .grid-square-three {
     grid-area: grid-three;
+    background: linear-gradient(-45deg, #fbc2cd, #fff7ad, #ffa7b7, #fff7ad);
+    background-size: 400% 400%;
+    animation: gradient 15s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    padding: 3vw;
 }
 
 .grid-content {
@@ -15,19 +27,55 @@
     grid-template-areas:
     "grid-one grid-two"
     "grid-one grid-three";
+    column-gap: 1vw;
+    row-gap: 1vw;
+    padding: 1vw;
 }
 
 .grid-square-one-circle {
-    padding: 1vw;
+    display: flex;
+    width: 3vw;
+    height: 3vw;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
     border-radius: 100%;
+    font-weight: bold;
 }
 
 .grid-square-two-circle {
-    padding: 1vw;
+    display: flex;
+    width: 3vw;
+    height: 3vw;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
     border-radius: 100%;
+    font-weight: bold;
 }
 
 .grid-square-three-circle {
-    padding: 1vw;
+    display: flex;
+    width: 3vw;
+    height: 3vw;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
     border-radius: 100%;
+    font-weight: bold;
+}
+
+.grid-square-one-title {
+    padding: 2vw;
+    font-size: 3rem;
+}
+
+.grid-square-two-title {
+    padding: 2vw;
+    font-size: 3rem;
+}
+
+.grid-square-three-title {
+    padding: 2vw;
+    font-size: 3rem;
 }

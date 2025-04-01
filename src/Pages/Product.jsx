@@ -1,5 +1,4 @@
 import ObserverProvider from "../Miscellaneous/ObserverProvider.tsx";
-import { createRoot } from "react-dom/client";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { StrictMode } from "react";
 import HeaderProd from "../Miscellaneous/HeaderProd.jsx";
@@ -27,11 +26,6 @@ const Product = function () {
                 <SectionOne className="section-one" />
               </div>
             </div>
-            <img
-              className="image-one motion-preset-expand"
-              src="https://d3bhvpql1mmbm1.cloudfront.net/img13.png"
-              alt="Doctor"
-            />
             <div className="spacer waves lowish-margin"></div>
             <div className="grey-bg">
               <div className="body">

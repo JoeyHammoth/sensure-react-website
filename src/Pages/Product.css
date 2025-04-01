@@ -71,12 +71,3 @@
 .lowish-margin {
     margin-top: -6vw;
 }
-
-.image-one {
-    position: absolute;
-    max-height: 80%;
-    max-width: 50%;
-    right: 0;
-    top: 15%;
-    z-index: 2;
-}

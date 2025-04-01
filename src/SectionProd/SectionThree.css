@@ -6,4 +6,23 @@
 .prod-section-three-content {
     display: flex;
     flex-direction: column;
+    font-family: Inter, sans-serif;
+}
+
+.prod-section-three-main-title {
+    font-size: 5rem;
+    max-width: 50vw;
+    font-weight: bold;
+}
+
+.prod-section-three-subtitle {
+    font-size: 3rem;
+    max-width: 60vw;
+}
+
+.prod-section-three-par {
+    font-size: 2rem;
+    max-width: 70vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
 }

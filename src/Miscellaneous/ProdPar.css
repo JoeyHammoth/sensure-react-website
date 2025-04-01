@@ -3,4 +3,33 @@
     flex-direction: column;
     font-family: Inter, sans-serif;
     font-size: 16px;
+    max-width: 500px;
+    position: relative;
+    padding: 15px 20px;
+}
+
+/* Single element for both borders with rounded corner */
+.prod-par-content::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 110%; /* Width of bottom border */
+    height: 25%; /* Height of left border */
+    background: transparent;
+    border-left: 3px solid #fdc1cc;
+    border-bottom: 3px solid #fdc1cc;
+    border-radius: 10px;
+}
+
+.prod-par-title {
+    padding: 0.3vw;
+    background: linear-gradient(-45deg, #65aec8, #fdc1cc);
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+.prod-par-description {
+    margin-top: 10px;
+    padding-left: 5px;
 }

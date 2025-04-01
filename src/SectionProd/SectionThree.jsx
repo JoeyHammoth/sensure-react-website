@@ -6,7 +6,7 @@ const SectionThreeProd = function () {
     <div className="prod-section-three">
       <div className="prod-section-three-content">
         <div className="prod-section-three-main-title">
-          The Complete Education Package:
+          The Complete Education Package
         </div>
         <div className="prod-section-three-subtitle">
           A Holistic Learning Solution—Bringing Sound, Simulation, and Smart
