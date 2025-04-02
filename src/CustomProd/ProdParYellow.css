@@ -4,8 +4,10 @@
     font-family: Inter, sans-serif;
     font-size: 16px;
     max-width: 500px;
-    position: relative;
+    position: absolute;
     padding: 15px 20px;
+    z-index: 100;
+    top: 225%;
 }
 
 /* Single element for both borders with rounded corner */
@@ -14,7 +16,7 @@
     position: absolute;
     left: 0;
     bottom: 0;
-    width: 110%; /* Width of bottom border */
+    width: 170%; /* Width of bottom border */
     height: 25%; /* Height of left border */
     background: transparent;
     border-left: 3px solid #65aec8;
@@ -23,8 +25,10 @@
 }
 
 .prod-par-yellow-title {
-    padding: 0.3vw;
-    background: linear-gradient(-45deg, #65aec8, #fff7ad);
+    padding: 0.3vw 0.3vw 0.3vw 1vw;
+    background: linear-gradient(-45deg, #65aec8, #fff7ad, #65aec8, #fff7ad);
+    background-size: 400% 400%;
+    animation: gradient 15s cubic-bezier(0.5, 0, 0.5, 1) infinite;
     border-radius: 1rem;
     font-weight: bold;
 }

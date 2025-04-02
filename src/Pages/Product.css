@@ -3,8 +3,8 @@
 
 @plugin "tailwindcss-motion";
 
-.main-container {
-    position: relative;
+.prod-section-two-gap {
+    height: 40vh;
 }
 
 .header {

@@ -1,21 +1,7 @@
-.prod-section-two {
-    position: relative;
-}
-
-.prod-par-component-one {
+.section-two-prod-img {
+    width: 45%;
+    rotate: -95deg;
     position: absolute;
-    top: 20%;
-    left: 10%;
-}
-
-.prod-par-component-two {
-    position: absolute;
-    top: 50%;
+    top: 0;
     left: 30%;
-}
-
-.prod-par-component-three {
-    position: absolute;
-    top: 80%;
-    left: 60%;
 }

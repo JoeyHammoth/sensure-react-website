@@ -7,6 +7,7 @@
     position: relative;
     padding: 15px 20px;
     text-align: right; /* Right align the text */
+    left: 65%;
 }
 
 /* Single element for both borders with rounded corner */
@@ -15,17 +16,19 @@
     position: absolute;
     right: 0; /* Changed from left to right */
     top: 0; /* Changed from bottom to top */
-    width: 110%; /* Height of right border (was height of left border) */
+    width: 160%; /* Height of right border (was height of left border) */
     height: 30%; /* Width of top border (was width of bottom border) */
     background: transparent;
-    border-right: 3px solid #fdc1cc; /* Changed from border-left to border-right */
-    border-top: 3px solid #fdc1cc; /* Changed from border-bottom to border-top */
+    border-right: 3px solid #fff7ad; /* Changed from border-left to border-right */
+    border-top: 3px solid #fff7ad; /* Changed from border-bottom to border-top */
     border-radius: 10px;
 }
 
 .prod-par-right-title {
-    padding: 0.3vw;
-    background: linear-gradient(-45deg, #65aec8, #fdc1cc);
+    padding: 0.3vw 1vw 0.3vw 0.3vw;
+    background: linear-gradient(-45deg, #fbc2cd, #fff7ad, #ffa7b7, #fff7ad);
+    background-size: 400% 400%;
+    animation: gradient 15s cubic-bezier(0.5, 0, 0.5, 1) infinite;
     border-radius: 1rem;
     font-weight: bold;
     text-align: right; /* Explicitly set right alignment */

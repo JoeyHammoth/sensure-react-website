@@ -31,6 +31,7 @@ const Product = function () {
               <div className="body">
                 <SectionTwo />
               </div>
+              <div className="prod-section-two-gap"></div>
             </div>
             <div className="spacer waves-rev"></div>
             <div className="white-bg">

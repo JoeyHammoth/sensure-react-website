@@ -24,6 +24,11 @@ const SectionTwoProd = function () {
         description="We prioritize your data. Every interaction is encrypted and stored securely,
         ensuring your procedural feedback and analytics remain confidential and protected."
       />
+      <img
+        className="section-two-prod-img"
+        src="https://d3bhvpql1mmbm1.cloudfront.net/img14.jpg"
+        alt="Needle"
+      />
     </div>
   );
 };
