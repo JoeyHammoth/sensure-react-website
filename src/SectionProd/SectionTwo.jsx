@@ -1,5 +1,6 @@
 import "./SectionTwo.css";
 import ProdPar from "../Miscellaneous/ProdPar.jsx";
+import ProdParYellow from "../CustomProd/ProdParYellow.jsx";
 
 const SectionTwoProd = function () {
   return (
@@ -9,7 +10,7 @@ const SectionTwoProd = function () {
         description="Engineered for ease of use, our device attaches seamlessly to standard needles,
         providing consistent performance without disrupting clinical workflows."
       />
-      <ProdPar
+      <ProdParYellow
         title="Customisable Trainig & Procedural Insights"
         description="Engineered for ease of use, our device attaches seamlessly to standard needles,
         providing consistent performance without disrupting clinical workflows."

@@ -1,34 +1,23 @@
 import "./SectionFour.css";
-import LeftParagraph from "../Formats/LeftParagraph.jsx";
-import RightParagraph from "../Formats/RightParagraph.jsx";
 import YellowPinkPanel from "../Panels/YellowPinkPanel.jsx";
+import ProdLeftParagraph from "../CustomProd/ProdLeftParagraph.jsx";
+import ProdRightParagraph from "../CustomProd/ProdRightParagraph.jsx";
+import ProdLeftParagraphTwo from "../CustomProd/ProdLeftParagraphTwo.jsx";
 
 const ProdSectionFour = function () {
   return (
     <div className="prod-section-four">
-      <LeftParagraph
-        titleOne="🎤 The Hardware Product:"
-        titleTwo="Precision You Can Hear—A Portable Sound-Enabled Training Device for Needle Procedures"
-        paragraph="Captures subtle tactile vibrations and feeds real-time audio into the app and curriculum,
-        helping trainees and supervisors align on what to feel, when to feel it, and why it matters."
-        img=""
-        alt=""
+      <ProdLeftParagraph
+        img="https://d3bhvpql1mmbm1.cloudfront.net/img1.webp"
+        alt="needle"
       />
-      <RightParagraph
-        titleOne="🩺 The Simulated Model:"
-        titleTwo="Designed for Realism, Built for Learning—A Nimble, Effective Training Model"
-        paragraph="Built to complement the sound-enabled hardware, it provides a realistic, repeatable environment
-        for hands-on practice and performance tracking."
-        img=""
-        alt=""
+      <ProdRightParagraph
+        alt="needle"
+        img="https://d3bhvpql1mmbm1.cloudfront.net/img2.jpg"
       />
-      <LeftParagraph
-        titleOne="📱 The App:"
-        titleTwo="Train with Sound, Progress with Confidence—Your Pocket Guide to Procedural Mastery"
-        paragraph="Integrates sound data, procedural demos, and feedback review to guide skill development
-        and enable collaborative learaning anytime, anywhere."
-        img=""
-        alt=""
+      <ProdLeftParagraphTwo
+        img="https://d3bhvpql1mmbm1.cloudfront.net/img3.png"
+        alt="needle"
       />
       <YellowPinkPanel
         title="Shape the Future of Procedural Training—Join Our Study, Share Your Expertise."

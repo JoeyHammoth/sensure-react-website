@@ -8,6 +8,7 @@
     justify-content: start;
     align-items: center;
     padding: 64px 32px;
+    gap: 5vw;
 }
 
 @keyframes gradient {
@@ -26,7 +27,7 @@
     font-family: Inter, sans-serif;
     font-size: 48px;
     font-weight: bold;
-    width: 500px;
+    width: 550px;
 }
 
 .panel-content {
