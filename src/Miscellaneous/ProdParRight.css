@@ -1,0 +1,38 @@
+.prod-par-right-content {
+    display: flex;
+    flex-direction: column;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    max-width: 500px;
+    position: relative;
+    padding: 15px 20px;
+    text-align: right; /* Right align the text */
+}
+
+/* Single element for both borders with rounded corner */
+.prod-par-right-content::before {
+    content: "";
+    position: absolute;
+    right: 0; /* Changed from left to right */
+    top: 0; /* Changed from bottom to top */
+    width: 110%; /* Height of right border (was height of left border) */
+    height: 30%; /* Width of top border (was width of bottom border) */
+    background: transparent;
+    border-right: 3px solid #fdc1cc; /* Changed from border-left to border-right */
+    border-top: 3px solid #fdc1cc; /* Changed from border-bottom to border-top */
+    border-radius: 10px;
+}
+
+.prod-par-right-title {
+    padding: 0.3vw;
+    background: linear-gradient(-45deg, #65aec8, #fdc1cc);
+    border-radius: 1rem;
+    font-weight: bold;
+    text-align: right; /* Explicitly set right alignment */
+}
+
+.prod-par-right-description {
+    margin-top: 10px;
+    padding-right: 5px; /* Changed from padding-left to padding-right */
+    text-align: right; /* Explicitly set right alignment */
+}

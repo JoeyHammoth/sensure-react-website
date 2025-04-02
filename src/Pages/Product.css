@@ -3,11 +3,16 @@
 
 @plugin "tailwindcss-motion";
 
+.main-container {
+    position: relative;
+}
+
 .header {
     z-index: 4;
 }
 
 .body {
+    position: relative;
     margin: 0 5vw;
     z-index: 0;
 }
@@ -29,6 +34,7 @@
 
 .grey-bg {
     background-color: #E1E1E1;
+    position: relative;
 }
 
 .header-gap {
@@ -53,6 +59,7 @@
 
 .waves {
     background-image: url("/public/SVG/layered-waves-haikei.svg");
+
 }
 
 .waves-rev {

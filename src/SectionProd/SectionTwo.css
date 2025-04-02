@@ -1,0 +1,21 @@
+.prod-section-two {
+    position: relative;
+}
+
+.prod-par-component-one {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.prod-par-component-two {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+
+.prod-par-component-three {
+    position: absolute;
+    top: 80%;
+    left: 60%;
+}
