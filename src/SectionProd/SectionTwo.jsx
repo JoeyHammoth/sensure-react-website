@@ -25,7 +25,7 @@ const SectionTwoProd = function () {
         ensuring your procedural feedback and analytics remain confidential and protected."
       />
       <img
-        className="section-two-prod-img"
+        className="section-two-prod-img intersect-once intersect:motion-preset-expand"
         src="https://d3bhvpql1mmbm1.cloudfront.net/img14.jpg"
         alt="Needle"
       />

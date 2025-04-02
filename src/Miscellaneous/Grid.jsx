@@ -2,7 +2,7 @@ import "./Grid.css";
 
 const Grid = function ({ titleOne, titleTwo, titleThree }) {
   return (
-    <div className="grid-content">
+    <div className="grid-content intersect-once intersect:motion-preset-pop">
       <div className="grid-square-one">
         <div className="grid-square-one-circle">1</div>
         <div className="grid-square-one-title">{titleOne}</div>
