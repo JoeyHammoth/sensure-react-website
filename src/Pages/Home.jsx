@@ -1,3 +1,5 @@
+// Home page for the website
+
 import "./Home.css";
 import React from "react";
 import Intro from "../Miscellaneous/Intro.jsx";
