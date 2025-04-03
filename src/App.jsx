@@ -10,6 +10,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./Pages/Home.jsx"; // New homepage component
 import Product from "./Pages/Product.jsx";
+import ScrollToTop from "./Util/ScrollToTop.jsx";
 
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import ObserverProvider from "./Miscellaneous/ObserverProvider.tsx";
@@ -21,6 +22,7 @@ const App = function () {
   return (
     <StrictMode>
       <BrowserRouter>
+        <ScrollToTop />
         <ObserverProvider>
           <QueryClientProvider client={queryClient}>
             <Routes>
