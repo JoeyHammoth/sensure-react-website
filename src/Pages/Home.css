@@ -80,3 +80,71 @@
     top: 15%;
     z-index: 2;
 }
+
+/* Extra small devices (phones, 600px and below) */
+@media only screen and (max-width: 600px) {
+    .body {
+        margin: 0 2vw;
+    }
+    .header-gap {
+        margin-top: 20vw; /* Increase gap for smaller screens */
+    }
+    .image-one {
+        position: static;  /* Remove absolute positioning on very small screens */
+        display: block;
+        max-width: 100%;
+        height: auto;
+        margin: 1rem auto; /* Center the image */
+    }
+    .spacer,
+    .spacer-crop {
+        aspect-ratio: auto;  /* Adjust aspect ratio if needed */
+        height: auto;
+    }
+}
+
+/* Small devices (large phones to portrait tablets, 601px to 768px) */
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .body {
+        margin: 0 3vw;
+    }
+    .header-gap {
+        margin-top: 15vw;
+    }
+    .image-one {
+        max-width: 70%;
+        top: 10%;
+        right: 0;
+    }
+}
+
+/* Medium devices (landscape tablets, 769px to 1024px) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .body {
+        margin: 0 4vw;
+    }
+    .header-gap {
+        margin-top: 12vw;
+    }
+    .image-one {
+        max-width: 60%;
+        top: 12%;
+        right: 0;
+    }
+}
+
+/* Large devices (desktops, 1025px and up) */
+/* Default styles apply, but you can add overrides if necessary */
+@media only screen and (min-width: 1025px) {
+    .body {
+        margin: 0 5vw;
+    }
+    .header-gap {
+        margin-top: 10vw;
+    }
+    .image-one {
+        max-width: 50%;
+        top: 15%;
+        right: 0;
+    }
+}

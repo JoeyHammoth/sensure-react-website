@@ -32,3 +32,34 @@
     position: absolute;
     max-width: 50vw;
 }
+
+@media only screen and (max-width: 699px) {
+    .section-one {
+        padding: 3vw;
+        margin-top: 15vw;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1109px) {
+    .section-one {
+        padding: 2vw;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 1110px) and (max-width: 1480px) {
+    .section-one {
+        padding: 1vw;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+}
