@@ -90,11 +90,7 @@
         margin-top: 20vw; /* Increase gap for smaller screens */
     }
     .image-one {
-        position: static;  /* Remove absolute positioning on very small screens */
-        display: block;
-        max-width: 100%;
-        height: auto;
-        margin: 1rem auto; /* Center the image */
+        display: none;
     }
     .spacer,
     .spacer-crop {
